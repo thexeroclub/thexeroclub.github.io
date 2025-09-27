@@ -1,0 +1,106 @@
+/* ===== General ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== Header ===== */
+header {
+  background: #24292e;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Sections ===== */
+section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section h2 {
+  color: #24292e;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* ===== Skills ===== */
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+.skills-list li {
+  background: #58a6ff;
+  color: white;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+/* ===== Projects ===== */
+.project {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: #24292e;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.project a:hover {
+  background: #58a6ff;
+}
+
+/* ===== Contact ===== */
+#contact p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* ===== Footer ===== */
+footer {
+  background: #24292e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
